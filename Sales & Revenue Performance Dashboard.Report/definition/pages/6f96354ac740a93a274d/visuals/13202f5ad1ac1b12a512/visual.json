@@ -1,0 +1,74 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "13202f5ad1ac1b12a512",
+  "position": {
+    "x": 157.48518129550189,
+    "y": 65.618825539792454,
+    "z": 7002,
+    "height": 83.117179017070441,
+    "width": 147.27780843375641,
+    "tabOrder": 7002
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "train"
+                    }
+                  },
+                  "Property": "YoY Growth %"
+                }
+              },
+              "queryRef": "train.YoY Growth %",
+              "nativeQueryRef": "YoY Growth %"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "train"
+                  }
+                },
+                "Property": "YoY Growth %"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c5260944105f8dc4fde3",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "train"
+              }
+            },
+            "Property": "YoY Growth %"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

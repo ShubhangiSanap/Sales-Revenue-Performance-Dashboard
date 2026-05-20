@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "6f96354ac740a93a274d",
+  "displayName": "Page 1",
+  "displayOption": "ActualSize",
+  "height": 720,
+  "width": 1280,
+  "pageBinding": {
+    "name": "400e914721d1833a7033",
+    "type": "Default",
+    "parameters": []
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#5868B9'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "57D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}
